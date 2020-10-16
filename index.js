@@ -27,4 +27,4 @@ app.get('/', (req, res) => {
 app.post('/addUser',db.addUser);
 app.get('/admin/:pin',db.admin);
 
-app.listen(3000, () => console.log("Server is Started!"));
+app.listen(process.env.port || 3000, () => console.log("Server is Started!"));
