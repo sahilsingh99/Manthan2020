@@ -19,7 +19,7 @@
     "googleapis": "^61.0.0",
     "mongoose": "^5.10.9",
     "node-json2html": "^1.4.0",
-    "nodemailer": "^6.4.13",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.4"
   }
 }
